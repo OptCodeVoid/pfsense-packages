@@ -66,6 +66,14 @@
 		<item>https://packages.pfsense.org/packages/config/apcupsd/apcupsd_mail.php</item>
 		<prefix>/usr/local/pkg/</prefix>
 	</additional_files_needed>
+	<additional_files_needed>
+		<item>https://packages.pfsense.org/packages/config/apcupsd/apcupsd.widget.php</item>
+		<prefix>/usr/local/www/widgets/widgets/</prefix>
+	</additional_files_needed>
+	<additional_files_needed>
+		<item>https://packages.pfsense.org/packages/config/apcupsd/apcupsd_inc.inc</item>
+		<prefix>/usr/local/www/widgets/include/</prefix>
+	</additional_files_needed>
 	<menu>
 		<name>Apcupsd</name>
 		<tooltiptext>Setup Apcupsd specific settings</tooltiptext>
